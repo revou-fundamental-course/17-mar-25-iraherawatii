@@ -1,5 +1,9 @@
 /* Ini CSS External */
 
+body{
+    font-family: cursive;
+}
+
 .main-header > h1{
     margin: 0px;
     background-color: pink;
