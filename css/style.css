@@ -1,1 +1,107 @@
 /* Ini CSS External */
+
+.main-header > h1{
+    margin: 0px;
+    background-color: pink;
+    padding: 24px;
+    text-align: center;
+}
+
+main{
+    background-color: lavenderblush;
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+}
+
+.nav-fitur{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-fitur > a{
+    align-self: center;
+    width: 50%;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav-fitur-non-active{
+    background-color: mediumvioletred;
+}
+
+.nav-fitur-active{
+    background-color: palevioletred;
+}
+
+.section-header{
+    background-color: pink;
+    padding: 16px;
+}
+
+.section-image{
+    background-image: url(../assets/persegi.jpg);
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+section{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    border-color: pink;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+.content-left{
+    text-align: left;
+    margin-left: 15px;
+}
+
+#input-nilai{
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}
+
+.calculate-content > h1{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#button-nilai{
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    width: 80px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.section-button-reset{
+    justify-self: right;
+}
+
+#button-reset{
+    background-color: darkslateblue;
+    color: white;
+    border-color: darkslateblue;
+    width: 80px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
